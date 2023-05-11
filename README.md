@@ -9,6 +9,6 @@ This is a System C based cycle accurate NoC simulator. Cycle Accurate NoC simula
 1. This Simulator requires System C to be installed at host PC. Use the following link to install the SystemC. Install 2.3.1a version.https://vinaydvd.wordpress.com/2012/05/30/installing-systemc-in-ubuntu/
 2. Details about the Simulator Installation and Compilation is given in Read_me.pdf
 3. Unzip the SIM_DY_1.zip (File)
-4. text commands given in testrun.txt
+4. Text commands given in testrun.txt
 
 **Note:   All the input files should be in approriate format to get the desired output.**
