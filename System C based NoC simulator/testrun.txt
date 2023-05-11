@@ -1,0 +1,8 @@
+export SYSTEMC_HOME=/usr/local/systemc231a/
+g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -Wl,-rpath=$SYSTEMC_HOME/lib-linux64 -o sim tableTopMain.cpp -lsystemc -lm
+
+g++ -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux -o sim tableTopMain.cpp -lsystemc –lm
+
+time ./sim -r 12 -sim 200 -sat 0 -con spare_core_router_table_mpeg.txt -folder spare_ilp/ -traffic spare_core_traffic_mpeg.txt -routing 1
+
+time ./sim -r 25 -sim 200 -sat 0 -con spare_core_router_table_mpeg_goa.txt -folder spare_goa/ -traffic spare_core_traffic_mpeg.txt -routing 1
