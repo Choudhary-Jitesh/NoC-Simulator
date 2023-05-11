@@ -12,3 +12,6 @@ authors:
     email: jiteshchoudhary@gmail.com
     family-names: CHOUDHARY
     orcid: 'https://orcid.org/0000-0003-0722-0922'
+identifiers:
+  - type: url
+    value: https://github.com/JITESHCHOUDHARY-IND/System-C-based-NoC-Simulator.git
